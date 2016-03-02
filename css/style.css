@@ -1,0 +1,281 @@
+/*{
+    border: 1px solid red !important;
+}
+
+/*
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/
+
+#imageSlider {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h1 {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+h1:before,
+h1:after {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 400%;
+}
+
+h1:before {
+  right: 100%;
+}
+
+h1:after {
+  left: 100%;
+}
+
+.headline {
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+	color: rgb(240,83,35);
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color:  rgb(240,83,35);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	color: white;
+  background-color: rgb(240,83,35);
+  text-decoration: none;
+}
+
+
+.logo {
+	background-color: #000000;
+	padding: 30px 30px;
+}
+
+.navBackground {
+	background-color: #000000;
+}
+
+.mainContentArea {
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 20px 30px 15px 30px;
+}
+
+.mainPic {
+	margin: 0 auto;
+	padding: 25px 30px 15px 30px;
+	max-width: 70%;
+  min-height: 150px;
+}
+
+.footer {
+	padding: 10px 10px;
+}
+
+.social {
+	padding-top: 0px;
+}
+
+.email {
+	padding-top: 10px;
+}
+
+/*.center {
+	margin: 0 auto;
+	max-width: 800px;
+}*/
+
+.active {
+  background-color: rgb(240,83,35);
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.caption {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  text-align: center;
+  background: #000;
+  background: rgba(0,0,0, .8);
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+    .caption{
+        display: none;
+    }
+    #bio{
+    	display: none;
+    }
+}
+
+.marginTop {
+	margin-top: 30px;
+}
+
+.marginBottom {
+  margin-bottom: 15px;
+}
+
+.contactPic {
+	margin: 0 auto;
+  max-width: 200px;
+}
+
+.imgShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.contactContentArea {
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 30px 50px 30px 50px;
+}
+
+.contactArea {
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 15px 15px 15px 15px;
+}
+
+#featuredCars {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.fcBackground {
+  background-color: #ececee;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.inventoryCars {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*.inventoryPic {
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.headline {
+  text-align: center;
+  border-bottom: 1px solid #ececee;
+  line-height: 0;
+  padding: 0;
+}
+
+.headlineSpace {
+  padding: 0 15px;
+}*/
+
+#footer {
+  height: 100px;
+  background-color: black;
+}
+
+.sideBar {
+  padding-left: 20px;
+  max-width: 215px;
+}
+
+.modal-content iframe{
+  margin: 0 auto;
+  display: block;
+}
+
+.highLight {
+    color: rgb(240,83,35);
+    font-weight: bold;
+}
+
+.videoCenter {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
